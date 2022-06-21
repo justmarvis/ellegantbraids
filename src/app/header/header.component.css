@@ -1,0 +1,13 @@
+.head {
+  line-height: 1px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: fff;
+}
+#menu {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: #fff;
+}

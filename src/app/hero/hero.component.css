@@ -1,0 +1,6 @@
+#head {
+  /* background-color: red; */
+  background-image: url("/src/assets/images/hero.jpg");
+  display: flex;
+  justify-content: center;
+}
