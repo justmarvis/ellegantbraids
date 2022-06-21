@@ -1,8 +1,18 @@
 h2 {
   font-size: 30px;
-  color: red;
   text-align: left;
+  z-index: 10;
 }
 #welcome {
-  margin:  50px 100px;
+  margin:  auto;
+  margin-top: 50px;
+  width: 40%;
+  display: flex;
+  align-items: center;
+}
+p {
+  background-color: tomato;
+  padding: 50px;
+  margin-left: -20px;
+  color: #fff;
 }
