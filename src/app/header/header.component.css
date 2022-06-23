@@ -1,11 +1,14 @@
 .head {
+  width: 90%;
+  margin: auto;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   text-align: center;
   background-color: #fff;
 }
 .Head {
   line-height: 0px;
+  cursor: pointer;
 }
 .elle {
   text-decoration: underline;
@@ -17,4 +20,8 @@
 }
 h1 {
   text-transform: uppercase;
+}
+.social {
+  display: flex;
+  justify-content: right;
 }

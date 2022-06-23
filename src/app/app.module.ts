@@ -7,6 +7,12 @@ import { MenuComponent } from './header/menu/menu.component';
 import { HeroComponent } from './hero/hero.component';
 import { WelcomeComponent } from './welcome/welcome.component';
 import { ButtonComponent } from './button/button.component';
+import { BraidsComponent } from './braids/braids.component';
+import { KnotlessComponent } from './knotless/knotless.component';
+import { ContactComponent } from './header/contact/contact.component';
+import { FooterComponent } from './footer/footer.component';
+import { SocialComponent } from './header/social/social.component';
+import { SearchComponent } from './header/search/search.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +21,13 @@ import { ButtonComponent } from './button/button.component';
     MenuComponent,
     HeroComponent,
     WelcomeComponent,
-    ButtonComponent
+    ButtonComponent,
+    BraidsComponent,
+    KnotlessComponent,
+    ContactComponent,
+    FooterComponent,
+    SocialComponent,
+    SearchComponent
   ],
   imports: [
     BrowserModule

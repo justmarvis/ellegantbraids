@@ -1,0 +1,26 @@
+.h2 {
+  text-align: center;
+  margin: 50px 0px;
+}
+.container {
+  margin: 50px 0px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  border: 1px solid black;
+  padding: 20px
+}
+.smal:hover, .med:hover, .lag:hover {
+  transform: scale(1.3);
+  /* padding: 40px; */
+  box-shadow: 1px 1px 20px 5px rgb(0, 0, 0, 15%);
+}
+.prize {
+  font-size: 12px;
+}
