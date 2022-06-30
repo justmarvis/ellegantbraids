@@ -1,9 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-braids',
-  templateUrl: './braids.component.html',
-  styleUrls: ['./braids.component.css']
+  selector: 'app-braid',
+  templateUrl: './braid.component.html',
+  styleUrls: ['./braid.component.css']
 })
 export class BraidsComponent implements OnInit {
 

@@ -6,13 +6,17 @@ import { HeaderComponent } from './header/header.component';
 import { MenuComponent } from './header/menu/menu.component';
 import { HeroComponent } from './hero/hero.component';
 import { WelcomeComponent } from './welcome/welcome.component';
-import { ButtonComponent } from './button/button.component';
-import { BraidsComponent } from './braids/braids.component';
-import { KnotlessComponent } from './knotless/knotless.component';
+import { BraidsComponent } from './braids/braid/braid.component';
+import { KnotlessComponent } from './braids/knotless/knotless.component';
 import { ContactComponent } from './header/contact/contact.component';
 import { FooterComponent } from './footer/footer.component';
 import { SocialComponent } from './header/social/social.component';
 import { SearchComponent } from './header/search/search.component';
+import { ButtonComponent } from './hero/button/button.component';
+import { HomeComponent } from './home/home.component';
+import { AppointmentComponent } from './appointment/appointment.component';
+import { AppRoutingModule } from './app-routing.module';
+import { GoddessComponent } from './braids/goddess/goddess.component';
 
 @NgModule({
   declarations: [
@@ -21,16 +25,20 @@ import { SearchComponent } from './header/search/search.component';
     MenuComponent,
     HeroComponent,
     WelcomeComponent,
-    ButtonComponent,
     BraidsComponent,
     KnotlessComponent,
     ContactComponent,
     FooterComponent,
     SocialComponent,
-    SearchComponent
+    SearchComponent,
+    ButtonComponent,
+    HomeComponent,
+    AppointmentComponent,
+    GoddessComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
