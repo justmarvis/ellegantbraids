@@ -1,0 +1,25 @@
+.head {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background-color: #fff;
+  }
+  .Head {
+    line-height: 0px;
+    cursor: pointer;
+  }
+  #menu {
+    background-color: #fff;
+    z-index: 100;
+    position: relative;
+  }
+  h1 {
+    text-transform: uppercase;
+  }
+  .social {
+    display: flex;
+    justify-content: right;
+  }
+  
