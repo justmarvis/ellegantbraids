@@ -1,0 +1,26 @@
+.secondLayer {
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    background: #fff;
+}
+.third {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: -200px auto;
+}
+ /* Small view */
+ @media only screen and (max-width: 60rem) {
+    .secondLayer {
+        position: relative;
+        background: #fff;
+        margin: 20px 0px;
+    }
+    .third {
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+        margin: -50px auto;
+    }
+}

@@ -1,0 +1,9 @@
+.social-container {
+    position: relative;
+}
+/* Small view */
+@media only screen and (max-width: 60rem) {
+    .social-container {
+        position: relative;
+    }
+}

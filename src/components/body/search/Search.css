@@ -1,0 +1,10 @@
+.search li {
+    list-style: none;
+    cursor: pointer;
+}
+  /* Small view */
+  @media only screen and (max-width: 60rem) {
+    .search-container {
+        position: relative;
+    }
+}

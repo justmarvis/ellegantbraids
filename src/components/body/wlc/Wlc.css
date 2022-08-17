@@ -1,0 +1,27 @@
+.welcome {
+    position: relative;
+    background-color: tomato;
+    padding: 50px;
+    margin-left: 20px;
+    color: #fff;
+    width: 40%;
+}
+h2 {
+    font-size: 50px;
+  }
+p {
+    font-size: 20px;
+}
+  /* Small view */
+@media only screen and (max-width: 60rem) {
+    .welcome {
+        width: 80%;
+        padding: 0;
+        margin: 100px auto;
+        color: #fff;
+        padding: 20px;
+    }
+    p {
+        font-size: 16px;
+    }
+}

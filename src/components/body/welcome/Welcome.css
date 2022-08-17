@@ -1,0 +1,6 @@
+  /* Small view */
+  @media only screen and (max-width: 60rem) {
+    .welcome-container {
+        opacity: 0;
+    }
+}
